@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+    <link rel="stylesheet" href="task1.css">
+</head>
+
+<body>
+    <div class="container">
+       
+        <form action="" id="registrationform" onsubmit="validation()">  
+            <h1 class="form-title">Registration form</h1>
+         
+            <label class="label" for="username">Username</label>
+            <input type="text" id="username" placeholder="Enter username.."><br>
+            <!-- error message span -->
+            <span style="color: red;" id="username_error"></span><br>
+
+            <label class="label"  for="email">Email</label>
+            <input type="email" id="email" placeholder="Enter username.."><br>
+            <!-- error message span -->
+            <span style="color: red;" id="email_error"></span><br>
+
+            <label class="label"  for="password">Password</label>
+            <input type="password" id="password" placeholder="Enter username.."><br>
+            <!-- error message span -->
+            <span style="color: red;" id="password_error"></span><br>
+
+            <label class="label"  for="confirmpassword">confirmpassword</label>
+            <input type="password" id="confirmpassword" placeholder="Enter username.."><br>
+             <!-- error message span -->
+             <span style="color: red;" id="confirmpassword_error"></span><br>
+
+            <button class="btn" type="submit">Register</button>
+        </form>
+    </div>
+<script src="task1.js"></script>
+</body>
+
+</html>

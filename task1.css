@@ -1,0 +1,45 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(234, 223, 223);    
+}
+
+.container {
+    width: 100%;
+    max-width: 650px;
+    background-color: rgb(35, 30, 30);
+    padding: 28px;
+    margin: 0 28px;
+    border-radius: 20px;
+    box-shadow: inset -2px 2px 2px white;
+}
+
+.form-title{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 6px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+    border-bottom: 2px solid white;
+}
+
+.label{
+    color: white;
+}
+.btn{
+    background-color: black;
+    color: white;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
